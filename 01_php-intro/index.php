@@ -27,19 +27,19 @@ $pagina_atual   = "inicio";
 
     <?php include 'includes/cabecalho.php'; ?>
 
-    <div class="hero">
-        <h1><?php echo $nome; ?></h1>
-        <p><?php echo $profissao; ?> | <?php echo $curso; ?></p>
-    </div>
+        <div class="hero">
+            <h1><?php echo $nome; ?></h1>
+            <p><?php echo $profissao; ?> | <?php echo $curso; ?></p>
+        </div>
 
 
-    <div class="container">
-        <h2>Bem-vindo ao meu portfólio</h2>
-        <p>Esta página foi gerada pelo PHP em:
-            <strong><?php echo date("d/m/Y \à\s H:i:s"); ?></strong></p>
-    </div>
+        <div class="container">
+            <h2>Bem-vindo ao meu portfólio</h2>
+            <p>Esta página foi gerada pelo PHP em:
+                <strong><?php echo date("d/m/Y \à\s H:i:s"); ?></strong></p>
+        </div>
 
-<?php include 'includes/rodape.php'; ?>
+    <?php include 'includes/rodape.php'; ?>
 
 </body>
 </html>
