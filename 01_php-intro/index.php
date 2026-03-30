@@ -9,9 +9,9 @@
 <?php
 // Variáveis PHP - serão usadas no HTML abaixo
 $nome      = "Gabriel Vinicius da Silva";
-$profissão = "Estudante de Tecnologia";
+$profissão = "Estudante de Informática";
 $curso     = "Técnico em Informática - IFPR";
-$pagina_atual   = "inicio";
+$pagina_atual   = "início";
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
